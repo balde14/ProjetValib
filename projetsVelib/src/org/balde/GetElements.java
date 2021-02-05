@@ -35,21 +35,12 @@ public class GetElements {
         Emplacement em=new Emplacement();
         List<Coordonnées> list2=new ArrayList<>();
         list2.addAll(em.emplacement());
-        //list2.forEach(c->System.out.println(c));
-       /* Scanner sc = new Scanner(System.in);
-        System.out.println("Veuillez saisir un nom :");
-        String str=sc.nextLine();
-        for(Station c: list) {
-        	if(c.getStation_name().equals(str))
-        		System.out.println(c);
-        }*/
        
         //--------------3) recuperation des noms de station--------------------||
         
         NomStation nom=new NomStation();
         List<String> list3=new ArrayList<>();
         list3.addAll(nom.StationNom());
-       // System.out.println(list3);
 	}
 
 }
